@@ -70,11 +70,6 @@ const store = createStore(rootReducer);
 //   type: "account/requestLoan",
 //   payload: { amount: 1000, purpose: "Buy a car" },
 // });
-// console.log(store.getState());
-// store.dispatch({ type: "account/payLoan" });
-// console.log(store.getState());
-
-// const ACOOUNT_DEPOSIT = "account/deposit";
 
 function deposit(amount) {
   return { type: "account/deposit", payload: amount };
